@@ -37,14 +37,16 @@ nav .navbar-brand{
 }
 
 /* main section  */
-.main h1{
+.hero h1{
+    top: 0;
+    left: 100px;
     padding-top: 46px;
     line-height: 0.8em;
     letter-spacing: 0;
     font-size: 70px;
     padding-bottom: 42px;
 }
-.main h1>span{
+.hero h1>span{
     color: #8B0000;
 }
 .main img{
@@ -64,8 +66,16 @@ footer{
     nav{
         padding: 8px 0!important;
     }
+    .hero h1{
+        font-size: 40px;
+        left: ;
+    }
 }
 @media(max-width: 576px){
+    .hero h1{
+        padding-top: 20px;
+        left: 50px;
+    }
     .main h1{
         font-size: 40px;
         padding-top: 0px;
