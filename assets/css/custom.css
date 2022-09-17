@@ -1,4 +1,11 @@
 /* navbar css */
+nav{
+    padding: 20px 10px!important;
+}
+nav .navbar-brand{
+    color: #fff;
+    font-weight: bold;
+}
 #mynavbar{
     justify-content: flex-end;
 }
@@ -11,3 +18,55 @@
         display: none;
     }
 } */
+
+/* hero section   */
+#hero_video{
+    width: 100%;
+}
+.face_link{
+    top: 100px;
+    background-color: black;
+}
+
+/* main section  */
+.main h1{
+    padding-top: 46px;
+    line-height: 0.8em;
+    letter-spacing: 0;
+    font-size: 70px;
+    padding-bottom: 42px;
+}
+.main h1>span{
+    color: #8B0000;
+}
+.main img{
+    margin-bottom: 46px;
+}
+.main p{
+    font-size: 14px;
+}
+
+/* footer section  */
+footer{
+    background-color: black;
+    color: white;
+}
+
+@media(max-width: 768px){
+    nav{
+        padding: 8px 0!important;
+    }
+}
+@media(max-width: 576px){
+    .main h1{
+        font-size: 40px;
+        padding-top: 0px;
+    }
+    .main img{
+        width: 100%;
+    }
+    .main button{
+        margin-top: 16px!important;
+        margin-bottom: 16px!important;
+    }
+}
