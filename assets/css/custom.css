@@ -7,8 +7,12 @@ nav{
     background-color: black!important;
 }
 nav .navbar-brand{
+    height: 30px;
+    width: 100px;
     color: #fff;
     font-weight: bold;
+    background-image: url("../images/japaneselogo.png");
+    background-size: 100%;
 }
 #mynavbar{
     justify-content: flex-end;
@@ -106,4 +110,15 @@ footer{
         font-size: 40px;
         padding: 14px 0;
     }
+}
+
+/* sensei page  */
+.sensei_about{
+    border-color: black!important;
+}
+.sensei_right{
+    justify-content: center!important;
+}
+.sensei_kendo li div{
+    padding-left: 20px;
 }
