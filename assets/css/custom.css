@@ -127,3 +127,70 @@ footer{
         padding-top: 20px!important;
     }
 }
+
+
+/* Contact Page  */
+
+.contact_right div{
+    font-size: 20px;
+    color: #8B0000;
+}
+.contact_right div span{
+    color: black;
+}
+@media(max-width: 576px){
+    .contact_title{
+        padding: 20px 0!important;
+    }
+    .contact{
+        flex-direction: column-reverse;
+    }
+    .contact_right div{
+        padding-top: 10px!important;
+    }
+    .contact_group{
+        padding-top: 10px;
+    }
+}
+
+/* FAQ Page  */
+.faq_item{
+    border-bottom: 1px solid gray;
+}
+.faq_header{
+    height: 80px;
+}
+.faq_header a{
+    font-size: 18px;
+    color: rgb(79, 77, 77);
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.faq_header a:active{
+    border: none;
+}
+.faq_body{
+    color: black;
+    padding-bottom: 30px;
+}
+
+/* Helpful Links */
+.helpful_title{
+    padding: 10px 0!important;
+}
+.helpful_right img{
+    width: 422px;
+    height: 214px;
+}
+@media(max-width: 576px){
+    .helpful div>a{
+        margin: 10px 0;
+    }
+    .helpful_right img{
+        width: 100%;
+    }
+}
