@@ -122,3 +122,8 @@ footer{
 .sensei_kendo li div{
     padding-left: 20px;
 }
+@media(max-width: 576px){
+    .sensei_about{
+        padding-top: 20px!important;
+    }
+}
