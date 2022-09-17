@@ -1,6 +1,7 @@
 /* navbar css */
 nav{
     padding: 20px 10px!important;
+    background-color: black!important;
 }
 nav .navbar-brand{
     color: #fff;
@@ -69,4 +70,10 @@ footer{
         margin-top: 16px!important;
         margin-bottom: 16px!important;
     }
+    .footer_bottom{
+        font-size: 12px;
+    }
 }
+
+
+/* About Page */
