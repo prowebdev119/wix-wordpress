@@ -1,0 +1,13 @@
+/* navbar css */
+#mynavbar{
+    justify-content: flex-end;
+}
+/* @media (min-width: 768px){
+    .navbar-expand-sm .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    .navbar-expand-sm .navbar-toggler {
+        display: none;
+    }
+} */
