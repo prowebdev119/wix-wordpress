@@ -1,3 +1,6 @@
+*{
+    font-family: nimbus-sans-tw01con,nimbus-sans-tw05con,sans-serif;;
+}
 /* navbar css */
 nav{
     padding: 20px 10px!important;
@@ -77,3 +80,30 @@ footer{
 
 
 /* About Page */
+.about_title{
+    line-height: normal;
+    font-size: 70px;
+}
+.about_title span{
+    color: #8B0000;
+}
+.about_left p{
+    font-size: 22px;
+    font-family: nimbus-sans-tw01con,nimbus-sans-tw05con,sans-serif;
+}
+.about_address {
+    font-size: 20px;
+}
+.about_address span{
+    color: #8B0000;
+}
+
+@media(max-width: 576px){
+    .about_left p{
+        font-size: 18px;
+    }
+    .about_title{
+        font-size: 40px;
+        padding: 14px 0;
+    }
+}
