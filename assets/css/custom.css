@@ -11,7 +11,7 @@ nav .navbar-brand{
     width: 100px;
     color: #fff;
     font-weight: bold;
-    background-image: url("../images/japaneselogo.png");
+    background-image: url("../images/LogoWhiteShadowTransparency.png");
     background-size: 100%;
 }
 #mynavbar{
@@ -68,7 +68,6 @@ footer{
     }
     .hero h1{
         font-size: 40px;
-        left: ;
     }
 }
 @media(max-width: 576px){
