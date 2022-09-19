@@ -32,19 +32,16 @@ nav .navbar-brand{
     width: 100%;
 }
 .face_link{
-    top: 100px;
+    top: 120px;
     background-color: black;
 }
 
 /* main section  */
 .hero h1{
-    top: 0;
-    left: 100px;
-    padding-top: 46px;
     line-height: 0.8em;
-    letter-spacing: 0;
+    padding-bottom: 12px;
+    line-height: normal;
     font-size: 70px;
-    padding-bottom: 42px;
 }
 .hero h1>span{
     color: #8B0000;
@@ -125,6 +122,10 @@ footer{
 .sensei_about{
     border-color: black!important;
 }
+.sensei_title{
+    line-height: normal;
+    font-size: 70px;
+}
 .sensei_right{
     justify-content: center!important;
 }
@@ -135,11 +136,19 @@ footer{
     .sensei_about{
         padding-top: 20px!important;
     }
+    .sensei_title{
+        font-size: 40px;
+        padding: 14px 0;
+    }
 }
 
 
 /* Contact Page  */
-
+.contact_title{
+    line-height: normal;
+    font-size: 70px;
+    padding-bottom: 30px;
+}
 .contact_right div{
     font-size: 20px;
     color: #8B0000;
@@ -150,6 +159,8 @@ footer{
 @media(max-width: 576px){
     .contact_title{
         padding: 20px 0!important;
+        font-size: 40px;
+        padding: 14px 0;
     }
     .contact{
         flex-direction: column-reverse;
@@ -163,6 +174,11 @@ footer{
 }
 
 /* FAQ Page  */
+.faq_title{
+    line-height: normal;
+    font-size: 70px;
+    padding-bottom: 30px;
+}
 .faq_item{
     border-bottom: 1px solid gray;
 }
@@ -186,16 +202,30 @@ footer{
     color: black;
     padding-bottom: 30px;
 }
+@media(max-width: 576px){
+    .faq_title{
+        padding: 20px 0!important;
+        font-size: 40px;
+        padding: 14px 0;
+    }
+}
 
 /* Helpful Links */
 .helpful_title{
-    padding: 10px 0!important;
+    line-height: normal;
+    font-size: 70px;
+    padding-bottom: 30px;
 }
 .helpful_right img{
     width: 422px;
     height: 214px;
 }
 @media(max-width: 576px){
+    .helpful_title{
+        padding: 20px 0!important;
+        font-size: 40px;
+        padding: 14px 0;
+    }
     .helpful div>a{
         margin: 10px 0;
     }
