@@ -46,6 +46,9 @@ nav .navbar-brand{
 .hero h1>span{
     color: #8B0000;
 }
+.main{
+    padding-top: 20px;
+}
 .main img{
     margin-bottom: 46px;
 }
